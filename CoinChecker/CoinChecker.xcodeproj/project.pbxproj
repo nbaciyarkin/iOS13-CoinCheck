@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E5CDBCE26CA72410016AAA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5CDBCD26CA72410016AAA1 /* AppDelegate.swift */; };
+		4E5CDBD026CA72410016AAA1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5CDBCF26CA72410016AAA1 /* SceneDelegate.swift */; };
+		4E5CDBD226CA72410016AAA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5CDBD126CA72410016AAA1 /* ViewController.swift */; };
+		4E5CDBD526CA72410016AAA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E5CDBD326CA72410016AAA1 /* Main.storyboard */; };
+		4E5CDBD726CA72410016AAA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E5CDBD626CA72410016AAA1 /* Assets.xcassets */; };
+		4E5CDBDA26CA72410016AAA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E5CDBD826CA72410016AAA1 /* LaunchScreen.storyboard */; };
+		4E5CDBE526CA72B40016AAA1 /* CoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5CDBE426CA72B40016AAA1 /* CoinManager.swift */; };
+		4ED7F6F226CC78460055033E /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED7F6F126CC78460055033E /* CoinData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E5CDBCA26CA72410016AAA1 /* CoinChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E5CDBCD26CA72410016AAA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4E5CDBCF26CA72410016AAA1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4E5CDBD126CA72410016AAA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E5CDBD426CA72410016AAA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E5CDBD626CA72410016AAA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E5CDBD926CA72410016AAA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E5CDBDB26CA72410016AAA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E5CDBE426CA72B40016AAA1 /* CoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinManager.swift; sourceTree = "<group>"; };
+		4ED7F6F126CC78460055033E /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E5CDBC726CA72410016AAA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E5CDBC126CA72410016AAA1 = {
+			isa = PBXGroup;
+			children = (
+				4E5CDBCC26CA72410016AAA1 /* CoinChecker */,
+				4E5CDBCB26CA72410016AAA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E5CDBCB26CA72410016AAA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E5CDBCA26CA72410016AAA1 /* CoinChecker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E5CDBCC26CA72410016AAA1 /* CoinChecker */ = {
+			isa = PBXGroup;
+			children = (
+				4E5CDBCD26CA72410016AAA1 /* AppDelegate.swift */,
+				4E5CDBCF26CA72410016AAA1 /* SceneDelegate.swift */,
+				4E5CDBE326CA72860016AAA1 /* Controller */,
+				4E5CDBE226CA72700016AAA1 /* View */,
+				4E5CDBE126CA72690016AAA1 /* Model */,
+				4E5CDBD626CA72410016AAA1 /* Assets.xcassets */,
+				4E5CDBD826CA72410016AAA1 /* LaunchScreen.storyboard */,
+				4E5CDBDB26CA72410016AAA1 /* Info.plist */,
+			);
+			path = CoinChecker;
+			sourceTree = "<group>";
+		};
+		4E5CDBE126CA72690016AAA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4E5CDBE426CA72B40016AAA1 /* CoinManager.swift */,
+				4ED7F6F126CC78460055033E /* CoinData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E5CDBE226CA72700016AAA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4E5CDBD326CA72410016AAA1 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4E5CDBE326CA72860016AAA1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E5CDBD126CA72410016AAA1 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E5CDBC926CA72410016AAA1 /* CoinChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E5CDBDE26CA72410016AAA1 /* Build configuration list for PBXNativeTarget "CoinChecker" */;
+			buildPhases = (
+				4E5CDBC626CA72410016AAA1 /* Sources */,
+				4E5CDBC726CA72410016AAA1 /* Frameworks */,
+				4E5CDBC826CA72410016AAA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoinChecker;
+			productName = CoinChecker;
+			productReference = 4E5CDBCA26CA72410016AAA1 /* CoinChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E5CDBC226CA72410016AAA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					4E5CDBC926CA72410016AAA1 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 4E5CDBC526CA72410016AAA1 /* Build configuration list for PBXProject "CoinChecker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E5CDBC126CA72410016AAA1;
+			productRefGroup = 4E5CDBCB26CA72410016AAA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E5CDBC926CA72410016AAA1 /* CoinChecker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E5CDBC826CA72410016AAA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E5CDBDA26CA72410016AAA1 /* LaunchScreen.storyboard in Resources */,
+				4E5CDBD726CA72410016AAA1 /* Assets.xcassets in Resources */,
+				4E5CDBD526CA72410016AAA1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E5CDBC626CA72410016AAA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E5CDBE526CA72B40016AAA1 /* CoinManager.swift in Sources */,
+				4ED7F6F226CC78460055033E /* CoinData.swift in Sources */,
+				4E5CDBD226CA72410016AAA1 /* ViewController.swift in Sources */,
+				4E5CDBCE26CA72410016AAA1 /* AppDelegate.swift in Sources */,
+				4E5CDBD026CA72410016AAA1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4E5CDBD326CA72410016AAA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E5CDBD426CA72410016AAA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E5CDBD826CA72410016AAA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E5CDBD926CA72410016AAA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E5CDBDC26CA72410016AAA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E5CDBDD26CA72410016AAA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E5CDBDF26CA72410016AAA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QM9L2SD236;
+				INFOPLIST_FILE = CoinChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yarkingazibaba.yark-n-app.CoinChecker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E5CDBE026CA72410016AAA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QM9L2SD236;
+				INFOPLIST_FILE = CoinChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yarkingazibaba.yark-n-app.CoinChecker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E5CDBC526CA72410016AAA1 /* Build configuration list for PBXProject "CoinChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E5CDBDC26CA72410016AAA1 /* Debug */,
+				4E5CDBDD26CA72410016AAA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E5CDBDE26CA72410016AAA1 /* Build configuration list for PBXNativeTarget "CoinChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E5CDBDF26CA72410016AAA1 /* Debug */,
+				4E5CDBE026CA72410016AAA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E5CDBC226CA72410016AAA1 /* Project object */;
+}
