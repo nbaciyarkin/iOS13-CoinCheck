@@ -8,7 +8,7 @@ protocol CoinManagerDelegate {
 struct CoinManager {
     
     let baseURL = "https://rest.coinapi.io/v1/exchangerate"
-    let apiKey = "0D2941E4-6B6F-47DD-9D92-CCA81A4B186D"
+    let apiKey = "API-KEY-HERE"
 
     let currencyArray = ["AUD", "BRL","CAD","CNY","EUR","GBP","HKD","IDR","ILS","INR","JPY","MXN","NOK","NZD","PLN","RON","RUB","SEK","SGD","USD","ZAR","TL"]
     
